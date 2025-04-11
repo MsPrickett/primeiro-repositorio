@@ -1,1 +1,16 @@
-A
+Kevin Clayton Cordieor Santos 11/04/25
+Comandos Bash
+
+(Comandos Config)
+git config --global user.atributo(email/username) "Informação email/username"
+[Define nas configurações globais do git as credencias a serem utilizadas]
+
+(Repositorio)
+git init "Caminho(Opcional)" (Inicializa um repositorio no local aberto, ou especificado)
+git branch -M Main (Define a branch a ser utilizada, nesse caso a main)
+git add . ou "nome do arquivo" (adiciona um arquivo a area de staging)
+git status (visualização do estado atual)
+git remote add origin "Link do repositorio remoto)[identifica e conecta a um repositorio remoto via https
+git commit -m "Nome do Commit" (-m identifica a branch main, e envia uma mensagem ao commit)
+git push -u origin main (push/pull)[empurra/puxa do repositorio remoto, u identifica universal, origin significa repositorio de origem, main significa a branch, pode ser alterada)
+
