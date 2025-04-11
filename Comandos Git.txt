@@ -14,3 +14,8 @@ git remote add origin "Link do repositorio remoto)[identifica e conecta a um rep
 git commit -m "Nome do Commit" (-m identifica a branch main, e envia uma mensagem ao commit)
 git push -u origin main (push/pull)[empurra/puxa do repositorio remoto, u identifica universal, origin significa repositorio de origem, main significa a branch, pode ser alterada)
 
+(Misc)
+git log(visualiza commits)(q para sair)
+git checkout -b "nome da branch nova" (cria uma branch nova)
+git switch "nome da branch" (troca ente branches/ramificações)
+git merge "nome da branch" (faz um merge de branches ate a branch main)
